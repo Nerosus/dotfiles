@@ -13,9 +13,6 @@
 items = [
     "zip",
     "kio-admin",
-    "flatpak-builder",
-    "distrobox",
-    "lshw",
     "p7zip",
     "mangohud", #Remove once you learn how to use the flatpak pkg
     "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
@@ -40,8 +37,6 @@ items = [
 #Packages to be installed via YaY.
 [managers.yay]
 items = [
-    "waydroid",
-    "binder_linux-dkms",
     "lact-bin",
 ]
 
@@ -49,19 +44,16 @@ items = [
 [managers.am]
 items = [
     "fdm",
-    "cromite",
     "brave", #This is here because of XCloud/Fortnite
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
     "goverlay",
-    "waydroid-helper",
     "vesktop",
 ]
 
 #Packages to be installed via AM --user mode.
 [managers.am_user]
 items = [
-    "funkin-legacy", #Using AppImage cuz of wayland support",
     "ultimmc",
 ]
 
@@ -95,20 +87,12 @@ items = [
 # Packages to be installed via Flatpak. (User mode)
 [managers.flatpak_user]
 items = [
-    "flathub com.github.KRTirtho.Spotube",
-    "flathub com.spotify.Client",
     "flathub net.lutris.Lutris",
     "flathub org.strawberrymusicplayer.strawberry",
     "flathub website.i2pd.i2pd",
-    "flathub dev.deedles.Trayscale",
-    "flathub flathub com.github.ztefn.haguichi",
     "flathub org.gnome.Boxes",
     "flathub org.mozilla.firefox",
-    "flathub im.nheko.Nheko",
-    "flathub im.riot.Riot",
     "flathub io.github.flattool.Warehouse",
-    "flathub org.gnome.GHex",
-    "flathub org.blender.Blender",
     "flathub rs.ruffle.Ruffle",
     "flathub org.synfig.SynfigStudio",
     "flathub com.github.libresprite.LibreSprite",
@@ -120,8 +104,6 @@ items = [
     "flathub com.vscodium.codium",
     "flathub org.libreoffice.LibreOffice",
     "flathub org.nickvision.tubeconverter",
-    "flathub in.srev.guiscrcpy",
-    "flathub com.obsproject.Studio",
     "flathub org.kde.kdenlive",
     "flathub com.valvesoftware.Steam",
     "flathub org.libretro.RetroArch",
@@ -135,22 +117,16 @@ items = [
 # Packages to be installed via Flatpak. (Extra mode)
 [managers.flatpak_extra]
 items = [
-    "flathub io.mrarm.mcpelauncher",
     "flathub sh.ppy.osu",
-    "flathub tw.ddnet.ddnet",
     "flathub org.zdoom.GZDoom",
     "flathub net.supertuxkart.SuperTuxKart",
-    "flathub dev.bragefuglseth.Keypunch",
     "flathub io.github.TheWisker.Cavasik",
     "flathub com.github.tchx84.Flatseal",
-    "flathub io.github.marco_calautti.DeltaPatcher",
     "flathub org.kde.krita",
     "flathub org.inkscape.Inkscape",
-    "flathub com.jpexs.decompiler.flash",
     "flathub io.mpv.Mpv",
     "flathub ch.openboard.OpenBoard",
     "flathub io.github.peazip.PeaZip",
-    "flathub org.qbittorrent.qBittorrent",
     "flathub org.tenacityaudio.Tenacity",
     "sober org.vinegarhq.Sober",
 ]
