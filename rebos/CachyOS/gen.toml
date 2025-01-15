@@ -18,6 +18,7 @@ items = [
     "lib32-mangohud", #When not using WoW64 mode of wine (for 32bit win games)
     "gamemode",
     "gamescope",
+    "ntfs-3g",
     "qt6pas", #This is here cuz of the goverlay AppImage
     "discover",
     "timeshift", #Launch with `sudo -E GDK_BACKEND=wayland timeshift-gtk`
