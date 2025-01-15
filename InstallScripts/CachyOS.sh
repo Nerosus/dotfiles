@@ -27,7 +27,7 @@ rebos config init
 
 #Clone dotfiles
 cd /home/$USER
-git clone https://github.com/Twig6943/dotfiles
+git clone https://github.com/Nerosus/dotfiles
 
 #Wallpapers
 sudo mkdir /usr/share/wallpapers/Custom/
