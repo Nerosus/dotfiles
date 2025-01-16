@@ -45,6 +45,7 @@ items = [
 [managers.am]
 items = [
     "fdm",
+    "steam",
     "brave", #This is here because of XCloud/Fortnite
     "fastfetch",
     "gimp-git", #Switch to flatpak once gimp 3 releases
@@ -106,7 +107,6 @@ items = [
     "flathub org.libreoffice.LibreOffice",
     "flathub org.nickvision.tubeconverter",
     "flathub org.kde.kdenlive",
-    "flathub com.valvesoftware.Steam",
     "flathub org.libretro.RetroArch",
     "flathub net.davidotek.pupgui2",
     "flathub com.github.Matoking.protontricks",
